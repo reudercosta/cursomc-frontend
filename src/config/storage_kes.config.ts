@@ -1,3 +1,4 @@
 export const STORAGE_KES = {
-    localUser : "localUser"
+    localUser : "localUser",
+    cart: "cursoSpringIonicCart"
 }
