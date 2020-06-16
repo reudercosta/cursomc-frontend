@@ -38,8 +38,7 @@ export class StorageService{
 
     setCart(obj : Cart) {
         if(obj!=null){
-            localStorage.setItem(STORAGE_KES.cart, JSON.stringify(obj));
-            
+            localStorage.setItem(STORAGE_KES.cart, JSON.stringify(obj));        
         }
         else{
             localStorage.removeItem(STORAGE_KES.cart);

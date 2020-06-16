@@ -67,11 +67,12 @@ export class CartService{
     }
     
     total(): number{
-        let cart = this.getCart();
+        let cart = this.storage.getCart();
         let sum = 0;
         for(var i=0; i<cart.items.length;i++){
            sum += cart.items[i].produto.preco * cart.items[i].quantidade; 
         }
+        //console.log(sum);
         return sum;
     }
 }

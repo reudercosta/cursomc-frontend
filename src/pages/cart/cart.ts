@@ -12,6 +12,7 @@ import { ProdutoDTO } from '../../models/produto.dto';
   templateUrl: 'cart.html',
 })
 export class CartPage {
+  
   items : CartItem [];
 
   constructor(
