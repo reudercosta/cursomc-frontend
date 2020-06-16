@@ -14,7 +14,7 @@ insert(obj: PedidoDTO){
         `${API_CONFIG.baseUrl}/pedidos`,
         obj,{
             observe:'response',
-            responseType: 'text'
+            responseType:'text'
         }
     );
   }
