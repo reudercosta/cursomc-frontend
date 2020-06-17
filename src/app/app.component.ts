@@ -21,7 +21,6 @@ export class MyApp {
     public authService: AuthService) {
 
     this.initializeApp();
-
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Profile', component: 'ProfilePage'},

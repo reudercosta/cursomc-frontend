@@ -70,6 +70,8 @@ presentLoading() { // loading da tela produto
 }
 
 doRefresh(refresher) { //refresh da tela produtos
+  this.page=0; // quando o refresh for realizado, retorna para pagina 0 e com a lista vazia
+  this.items = [];
   this.loadData(); // carrega os dados da tela produto
   setTimeout(() => {
     refresher.complete();
